@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title></title>
-        <link rel="stylesheet" href="/vendors/bootstrap.min.css">
-        <link rel="stylesheet" href="/styles/style.css">
-        <script type="text/javascript" src="/vendors/jquery.min.js"></script>
-        <script type="text/javascript" src="/scripts/app.js"></script>
-    </head>
-    <body>
-        <div id="peopleContainer">
-            <p class="person-name"></p>
-            <p class="person-github"></p>
-            <div class="person-shoutout"></div>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+  </head>
+  <body>
+    <!-- for bootstrap -->
+    <div class=container>
+      <div class="row jumbotron">
+        <h1>Iota Info</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <button id="left-scroll-button" class="btn-lg btn-info center-block">
+          Previous
+          </button>
         </div>
-        <div id="lecture"></div>
-    </body>
-
+        <div id="person-container" class="col-lg-8 well">
+          <h2 class="person-name"></h2>
+          <p class="person-favorite-movie-1"></p>
+          <p class="person-favorite-movie-2"></p>
+          <p class="person-favorite-song"></p>
+          <img src="" class="person-github center-block"></img>
+          <div id="index-buttons" class="center-block">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <button id="right-scroll-button" class="btn-lg btn-info center-block">
+          Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
