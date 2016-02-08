@@ -1,16 +1,3 @@
-.index-point {
-    width: 25px;
-    height: 25px;
-    background-color: #dad5d2;
-    border: 1px solid black;
-    float: left;
-    display: inline-block;
-}
-
-.index-point-active {
-    background-color: #ee100d;
-}
-
-.person-shoutout {
-    height: 200px;
+.selected {
+  border: 20px solid red;
 }
